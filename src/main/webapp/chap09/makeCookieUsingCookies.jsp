@@ -17,5 +17,7 @@
 </head>
 <body>
 Cookies 를 사용해서 쿠키 생성
+<br/>
+<a href="readCookieUsingCookies.jsp">쿠키 확인하러 가기</a>
 </body>
 </html>
