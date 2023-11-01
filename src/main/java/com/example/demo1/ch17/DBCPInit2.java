@@ -41,7 +41,7 @@ public class DBCPInit2 extends HttpServlet {
             poolableConnectionFactory.setValidationQuery("select 1");
 
             GenericObjectPoolConfig poolConfig = new GenericObjectPoolConfig();
-            poolConfig.setTimeBetweenEvictionRuns(Duration.of(1000L * 60L * 5L, ChronoUnit.SECONDS));
+            poolConfig.setTimeBetweenEvictionRuns(Duration.of(60L * 5L, ChronoUnit.SECONDS));
             poolConfig.setTestWhileIdle(true);
             poolConfig.setMinIdle(4);
             poolConfig.setMaxTotal(50);
